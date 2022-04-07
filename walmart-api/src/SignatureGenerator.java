@@ -17,34 +17,34 @@ public class SignatureGenerator {
     public static void main(String[] args) {
         SignatureGenerator generator = new SignatureGenerator();
 
-        String consumerId = "b7423a78-a2fb-4454-9848-d2cc69dcdde5";
+        String consumerId = "870dc509-9b4c-451c-bfc6-b3c11622d618";
         String privateKeyVersion = "1";
-        String key = "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC/yD3Ate9b2frr\n" +
-                "3BuIy45ck9fFgMzzeX5R/xfSXmdXeBGCHJXuf+dOzPV7m4jSlNbCW8EGHLRQYer0\n" +
-                "V0EUyXUIqDEITM0hewVjYpIBBX18odr/5P7ql5z+kQCa+yHH4j0ksjU5mZRRfU13\n" +
-                "KaLV/3Svm1+aQ+h3cAoAafiqb5JlDD7NtsBpYwKlOsilz5qtFpeuJE1PkopGHK0/\n" +
-                "xj5TtY/9zG+rX6HCUcYecl59gvh6DKKd3V0JUuyG1tvF21bMqtj4b1ULWgkwfP2j\n" +
-                "6qlO2Ml4Yh7nX1WNUxOCAg3RDBEZrhMXvkB1JdpJ/1QUq6gJNTmYC6oHyDTHbk9C\n" +
-                "AhD8hUTzAgMBAAECggEASi3knNaCR6/Pm00epVG+tdZFflIsc/xJPOQDTc5QAIgj\n" +
-                "lYUDBSYZzOQAC5iEWpdRXgnpZjjSEcld/LaHKMgnaXrMxF4YddvEoMVundCG0h80\n" +
-                "uwfTBeAwzFI/vrJmRY8fgUMgzS+3K7Hgtbe4ETfm5Umet+eOUixW4gQbN6lCIazm\n" +
-                "1WmwpHalH6MRzZqmchU3mf+jMpN9dwUQRzuNM0yksdhyWV6TI1UxdB/AdfbFGZ+U\n" +
-                "ANyiUOkLhossJYaZUW15cY0qM1p1C97tfyEyQccXAp1RzxPFld6USeXDrde+NZ9o\n" +
-                "41a4FF9K5TQx70/frwwvgA1x0gT7ufN4CJaOAkFHYQKBgQD+E1/OZl9UiYjZLe1c\n" +
-                "hgV2nU2QShZM6LvvuUJKqe+8tYXzxAZLyX0C5PlUqmptutxbm5LqWcxq6R/jjbJN\n" +
-                "Q/aNsjMzrzB2P7WMgT2vX7MECGUavjECgixFPko4YRqnkTy6F59FCt8Qbm2JjBHi\n" +
-                "9GCuMprfi+PYc6JNPLjHl0c08QKBgQDBPBYmRcvYyKYdeP11ic70F7lT+rkQ0BZZ\n" +
-                "E9+D5hsZ+wlfdOXHGiT4nWPyGtjYyb7MaZuAO6feew7VjXBg1vlIH4oWTnOOK6WB\n" +
-                "ahvwvowta4BE10/84eKlVqc5ojOZxbUOcSSiIPld4lMn1+kBvKMImfnqrMiKWWZf\n" +
-                "HOG5sDmIIwKBgHHV1mAQh/fFY1YC+M0ykvIRCnZya0lsIQAIHgZ72xjOr8SG+Fcu\n" +
-                "YF9Snc9sRyEAzsgQjSOItkjUSGBY1SE/KRFVXRF0FZ91be8U3MFdfER7SmlP+39n\n" +
-                "OVSQ0wotn5aiQPYTrV1uwICJKXSuGDl6SnLh43fzIlORg49dfGCYi+PRAoGAZIpR\n" +
-                "7/ny1UmY/M69+dEJKAHMAMD8V54dcp2fd25bfYobV1poT87vm5ewsAB+AVX++zab\n" +
-                "nP3tGxomHsDnzssrivY2D+Mjxr447/v4q6tJHjzH0YnB6Y7SMTrD6X3WoVS4HtqJ\n" +
-                "t/22Ib4njByP9MJkhY4v9YWPFkTrueM6IzZoyMcCgYBEfTRpo6xWvwCl6VV8RxRu\n" +
-                "RE1EF1BlEmW72ozouJCZ8Z9cToO57DQNr0CCFmLkwpiwzcoN4nyG8JL5OtdKMGca\n" +
-                "IHAJRwcoiRkw8vMpXCrpk/fTb0ekLDkiyZr+dWxZg/ZhXKAZL41XsjlgNdYX2txD\n" +
-                "BPVY5HTtn88WLnM1d17hnw==";
+        String key = "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDUYNSPPb7odfl/\n" +
+                "MO8r0Vof4RxIf5SYy4D091wdXa7G7yyqIhmfA19CLA0pTcvWME2EKQjx3aIB8UZ8\n" +
+                "XX17iBO/fhRkZ6ZxBXLUnC/aUM6Ba7ENWB6zumjqX3+ExXJruWERBAyxh2RjFGH3\n" +
+                "NZAzQ+acqGQRN/QSNqEbVGPx1pQ4snMeS5PPI6HgF+ELpGZodv0uLZsjb0cKYIqw\n" +
+                "Mv3eHzA4QPJSaKee641NMi13fqhCgrIkrYv28m7mE7x3AiNrTfqt+Xl5BZkduDlL\n" +
+                "0ClsKifejhILhB96CCf++cFPfCsIkY2aAbsAbgjcqfO+msVJsN6MvglN0wzD+EwT\n" +
+                "GCmCSgRTAgMBAAECggEAQod6zsx263dZiyCXK9DPPMFWDNf6gsrtQM/kSUa5o5P1\n" +
+                "F+7Ku+dghegqz0+RlS1YexgntyzIvXcJr5fR4UrFdO1YEgPuPeWJDVVIIEnEBwLn\n" +
+                "WdjK9V5l01XLKpp3t4tA/wWXvF0/c1JFRh2/aG/S5CxT/JjcmoAGg/sxu+aOVBvw\n" +
+                "d9G0xaBUScxAGwTyAd4qj//Mn4owXUiuc/jHLIr7L+bF6Od5E7aa/FqfJIxLbIln\n" +
+                "HNhd68Oi25yjqjkrzQqEPGgG70lsK5FtpFW/hUITOhUKi14RN/hDlrtb65gw8tBr\n" +
+                "oY3wC08DgtGWia9zwdq0WPw/sx1o+bRzNuLczzH0gQKBgQD0cmjCHz74AXII2gvY\n" +
+                "uywF6r8ljvLS+HObQVQ4kbobxZ0KEKUevjlqNmxHiJnxqw1aylr/34hvl/8eyVnv\n" +
+                "ppyGAx8phsWF2Xb0eg3WWUEZ03v998v7GccXV1UChol00p1XG1P1aaJs0kKt9nfj\n" +
+                "uTumvGbHKm1ZZVn3c1UdEYwTIQKBgQDeamstxUb5f6xHrkDhMBioh0+tOjiriosA\n" +
+                "rsx53baPL+dYT/Y8cxFFZKmsYlGSpN2EKlI2pf8ZuZMKk6KXMqu0LQG5bB+PubLA\n" +
+                "a6p8CUn2Uv3es8VaPnfWPCtInI4ZwVJT2TaRYD2FbEaV3s5YLvCwZffVL+2EmEjt\n" +
+                "dZBgSPRc8wKBgQDsWWqctyVlGdCualUl+uN33R9wKyTxgzQUGzhZcd1mWM2cG7fr\n" +
+                "X7WX0oMjLxrZpa/F5v3RhMogS/BqTfjdVFTm5kHNHvgAkOEJRLH4XFgrpmWui1b4\n" +
+                "tFXhZZlWVcq136YtwMiO8tIPMcUy+qm0zzaz4lnlnEoaM3qnXSYgcwTiwQKBgEOL\n" +
+                "sBcLZX2aD3kJa3y3/ZUY2tKx7snx3jsL2t9bvPiJRMnmJtK+40zewESw6zMMzJU5\n" +
+                "wRQFn45xdD1vDp66bbjfPjnQo1kjvSyAxhq7O3IKTD0Y/WNlu0EdrstzeBhMRLNg\n" +
+                "MRk/UA+4DUuwiZvwTXpUzUo6LvjowqUS4hDLtyKPAoGAL07KaAuREjgaTxWpwhvj\n" +
+                "PugQ7vZcZN5aaZr120WqnxWPi+6WUi99TkXcUrWZ4zlGeNKsPyhzCtBDZQKeZhGe\n" +
+                "riRNju+wTClkSP72jpMv6rhe+PD63cr8ewqxzazF7h66y+173Hl1uFTAxtmbMZCE\n" +
+                "K8qtHxA/CeawaqstP4vqHi4=";
 
         long intimestamp = System.currentTimeMillis();
 
